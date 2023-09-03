@@ -1,0 +1,9 @@
+function timer() {
+  setTimeout(function() {
+    console.log(++i);
+    
+      timer();
+    
+  }, i*1000);
+}
+timer()
